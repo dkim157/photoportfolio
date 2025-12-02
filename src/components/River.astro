@@ -1,0 +1,13 @@
+---
+import { siteConfig } from "../config";
+import Image from "astro/components/Image.astro";
+---
+
+<section id="river" class="p-8 sm:p-12 md:p-16 lg:p-24 bg-emerald-950">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 items-start">
+      <Image src={siteConfig.photos.river} alt={""} inferSize={true}/>
+      <Image src={siteConfig.photos.jump} alt={""} inferSize={true}/>
+      <Image src={siteConfig.photos.float} alt={""} inferSize={true}/>
+      <p class="text-white text-sm">yuba river 2024 / portra 400</p>
+    </div>
+</section>

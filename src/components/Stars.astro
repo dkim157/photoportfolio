@@ -1,0 +1,13 @@
+---
+import { siteConfig } from "../config";
+import Image from "astro/components/Image.astro";
+---
+
+<section id="stars" class="p-8 sm:p-12 md:p-16 lg:p-24 bg-gray-950">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 items-start">
+      <Image src={siteConfig.photos.sky} alt={""} inferSize={true}/>
+      <Image src={siteConfig.photos.star} alt={""} inferSize={true}/>
+      <Image src={siteConfig.photos.trail} alt={""} inferSize={true}/>
+      <p class="text-white text-sm">雪 / fuji xt-30 ii</p>
+    </div>
+</section>
