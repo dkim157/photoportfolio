@@ -3,11 +3,69 @@ import { siteConfig } from "../config";
 import Image from "astro/components/Image.astro";
 ---
 
-<section id="stars" class="p-8 sm:p-12 md:p-16 lg:p-24 bg-gray-950">
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 items-start">
-      <Image src={siteConfig.photos.sky} alt={""} inferSize={true}/>
-      <Image src={siteConfig.photos.star} alt={""} inferSize={true}/>
-      <Image src={siteConfig.photos.trail} alt={""} inferSize={true}/>
-      <p class="text-white text-sm">雪 / fuji xt-30 ii</p>
+<section
+  id="stars"
+  class="h-100 bg-repeat bg-auto p-8"
+  style={`background-image: url('${siteConfig.backgrounds.stars}')`}
+>
+  <div class="flex flex-wrap">
+    <img src={siteConfig.gifs.star} alt="" class="h-50 cursor-pointer" onclick="openModal('myModal')"/>
+    <img src={siteConfig.gifs.meteor} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.kamina} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.lagann} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.slusny} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.becko} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.yoyo} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.gentry} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.neptune} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.mars} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.moon} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.jupiter} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.magnetic} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.earth} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.spaceship} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.enterprise} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.borg} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.enterprise2} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.star2} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.star3} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.star4} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.star5} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.asteroid} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.sun} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.planet} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.saturn} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.astra} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.firework} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.boota} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.blackhole} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.tv} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.falcon} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.teletubby} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.eclipse} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.eclipse2} alt="" class="h-50"/>
+    <img src={siteConfig.gifs.text} alt="text goes here" class="h-50"/>
+    <img src={siteConfig.photos.title} alt="text goes here" class="h-50"/>
+  </div>
+    <div id="myModal" class="modal hidden absolute inset-0 flex items-center justify-center" onclick="closeModal('myModal')">
+      <img src={siteConfig.photos.sky} width="500px" ="full">
     </div>
 </section>
+
+<script>
+  declare global {
+    interface Window {
+      openModal: (id: string) => void;
+      closeModal: (id: string) => void;
+    }
+  }
+  window.openModal = (id) => {
+    const el = document.getElementById(id);
+    if (el) el.classList.remove('hidden');
+  };
+
+  window.closeModal = (id) => {
+    const el = document.getElementById(id);
+    if (el) el.classList.add('hidden');
+  };
+</script>
