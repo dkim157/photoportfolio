@@ -10,6 +10,7 @@ export const siteConfig = {
   photos: {
     title: "/title.gif",
     title2: "/dkim-title.gif",
+    title3: "/dkim-title-2.gif",
     sky: "https://i.imgur.com/XrKxIyj.jpeg",
     star: "https://i.imgur.com/RIS4sUr.jpeg",
     trail: "https://i.imgur.com/WdldYHn.jpeg",
@@ -22,6 +23,7 @@ export const siteConfig = {
   },
   gifs: {
     star: "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHZhMzJjaHc5NnU5OWR4bmxsOWN5d243dWdienExdjBsdDJlNDIxOSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/S6Z6vk4Ex19kb5OjO8/giphy.gif",
+    sun2: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2dxOG5qNTFtNGpxbjV2Y2xzcWRscnVlcGI5a3hmbW83ODNhbHRydiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/YqL7wobl36TXvw4SxO/giphy.gif",
     meteor:
       "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGR0cTJ3aW44dG4wMWJ1dHoyNDF6cDl6emNnaTFsMHdqdDR3cW1meSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/lTH5TD6XRDo5k6ICzS/giphy.gif",
     lagann:
@@ -44,7 +46,7 @@ export const siteConfig = {
     magnetic:
       "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cTV6dDQzdXg1dXN3YzhlMHQwM2VvNG1tOWpjcG1oOGI3cjM4eWg1NiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/26BRLnJe1CEsG3xPq/giphy.gif",
     earth:
-      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWp3YzdhY3A0engybXNhdDR1MGF3NjUycXduc21tZGQ1dmFuZDI1eiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/Uy79s1z3cMyCHCMRk1/giphy.gif",
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXRpcWN3Z3Q5ZnZkZHpvODZra2xvNXJwa3c2aXI2ZWlma2dodm0wayZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/2rdysIrBTfuJrMWhSz/giphy.gif",
     saturn:
       "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aWpwdXN2N3Q1bGlva292YXVmYmQybm1uMTc1OTEyM3dhNzF5eHMxNiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/9Pk1N0bFm0pdLLFNQG/giphy.gif",
     spaceship:
@@ -96,6 +98,10 @@ export const siteConfig = {
       "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazg4aTdwbDdrcXVrZDU4NnA3YWM0M2lyb3ZpanRkejVwbmFodW1oMCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/TpNTATTp5c2Ri/giphy.gif",
     gundam:
       "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGQ1ZzRueXZwM3NhZDFndXFobW1kejlwbmdqMzUwMHk0eDEzb212YyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/oGx89AflEmCmA/giphy.gif",
+    gundam2:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGE4cTE1MDVzeGRzaTByZnl0Mnd4c2xnNGs4MHNwMXZ6NHJ5ZHk0ZSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/WlJ3rck6IWfiU/giphy.gif",
+    gundam3:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGE4cTE1MDVzeGRzaTByZnl0Mnd4c2xnNGs4MHNwMXZ6NHJ5ZHk0ZSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/13nhjlnTv2Sr3a/giphy.gif",
     simon:
       "https://media1.tenor.com/m/WGgzlkOgUzoAAAAd/gurren-lagann-simon.gif",
     galaxy:
@@ -106,6 +112,8 @@ export const siteConfig = {
       "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjMyamFsZGR1Z2Eya3Mxampzd3F0OG1uMmh2dHVtNXd6cG9vajcyNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tdC6N1RKNp4swre2JY/giphy.gif",
     shootingstar:
       "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWdkdm9kMjZwNjh6eTFnaGFtc3k0ZmQyY3hyNTJuajVrbzd2b2puNCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/lTH5TD6XRDo5k6ICzS/giphy.gif",
+    blaster:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHZpbWIzY3FldXBpeGdueGMwNzkwMXF4emRwbzg4NWs5cjBpMjdlMCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/Ymnr4BwyMjqFFkDDri/giphy.gif",
   },
 
   backgrounds: {
