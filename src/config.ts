@@ -39,7 +39,7 @@ export const siteConfig = {
     mars: "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bHBsbHYxdzhjYTRoeXM4aG5lYXNwZ3ZhMnNtenhiNnhybDB3dzFkNyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/ek4CVwa1p9OkS6xhBb/giphy.gif",
     moon: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajFlcGh6bzd3NjUxMWQyc2FianZ5OHZqbWpicWh6OGZ0ZDdrY3duOCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/lIeUAWuLK7cv6/giphy.gif",
     jupiter:
-      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MG53NHFxanVvNmp1M3luam1uN2FiYzgwdTJ0amVwcDV1OWEyOTg5ZiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/Ytgm5yH5e8yrNByrTV/giphy.gif",
+      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MG9ubjhnaWxlbGNkMDJ3Yzk2aDlpcHRuY3J4ZHlpcDB1Mmlsd3E1YyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/jBjX7ORMjSG2s/giphy.gif",
     magnetic:
       "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cTV6dDQzdXg1dXN3YzhlMHQwM2VvNG1tOWpjcG1oOGI3cjM4eWg1NiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/26BRLnJe1CEsG3xPq/giphy.gif",
     earth:
@@ -85,6 +85,26 @@ export const siteConfig = {
     eclipse2:
       "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHY4bnZybW9iZDR6dWUwdWwwbGtvNmtzNjc4cjFtNW9reWFpbWk1MiZlcD12MV9zdGlja2Vyc19yZWxhdGVkJmN0PXM/5Pc2QlK14iRj32Mq8K/giphy.gif",
     text: "https://3dtext2gif.com/stickers/_3dtext2gif_eagqatx_yaohzvu.gif",
+    sinnoh:
+      "https://64.media.tumblr.com/6d15fa7eaa4b92133cc1655ea159cf23/8cb9f604756b4a6f-8c/s540x810/b069a3a616f8fa30f5656b5805da3c6d53f79bb7.gifv",
+    sinnoh2:
+      "https://64.media.tumblr.com/75e023d90adbe88bd37c645b117a0b3e/8cb9f604756b4a6f-0c/s540x810/84c5c91f0c09d62e78f45196483959803aa47f8e.gifv",
+    pisces:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTBpd2Q3dzZ6bnJ6YWE4Nnc5cWI2NzhrZDlycTdlN3Q1NjAybDlrOSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/MC47NTTAmkucceXCUv/giphy.gif",
+    saturn2:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazg4aTdwbDdrcXVrZDU4NnA3YWM0M2lyb3ZpanRkejVwbmFodW1oMCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/TpNTATTp5c2Ri/giphy.gif",
+    gundam:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGQ1ZzRueXZwM3NhZDFndXFobW1kejlwbmdqMzUwMHk0eDEzb212YyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/oGx89AflEmCmA/giphy.gif",
+    simon:
+      "https://media1.tenor.com/m/WGgzlkOgUzoAAAAd/gurren-lagann-simon.gif",
+    galaxy:
+      "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MzhzcW9wMjhndjh6YjZydjExdG5iZXRwbjdoMnFhcDhhMHZtc2gweiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/XYsjIc9BTfRSWk9E6y/giphy.gif",
+    crescent:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjgyeGRyc2xvdGdscGFjeTFmNGtsZ3lzZWpicGhzZDRuYW9mZDF0eiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/Mtbue56Zl3T4ZfuNVX/giphy.gif",
+    galaxy2:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjMyamFsZGR1Z2Eya3Mxampzd3F0OG1uMmh2dHVtNXd6cG9vajcyNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tdC6N1RKNp4swre2JY/giphy.gif",
+    shootingstar:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWdkdm9kMjZwNjh6eTFnaGFtc3k0ZmQyY3hyNTJuajVrbzd2b2puNCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/lTH5TD6XRDo5k6ICzS/giphy.gif",
   },
 
   backgrounds: {
@@ -95,84 +115,4 @@ export const siteConfig = {
     stars3:
       "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2ZxMmlyYTZ6Y3FkZXJpZ3ZhMnF5dzhlMHl3YmtwNHhoZnJsenphdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U3qYN8S0j3bpK/giphy.gif",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
-  ],
 };
