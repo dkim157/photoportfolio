@@ -8,26 +8,29 @@ import Image from "astro/components/Image.astro";
   class="w-full h-80 bg-repeat bg-auto"
   style={`background-image: url('${siteConfig.backgrounds.stars}')`}
 >
-  <div class="relative grid grid-cols-3 w-full h-full ">
-    <div id="solar" class="relative">
-      <img src={siteConfig.gifs.earth} class="absolute w-10 h-auto top-40 left-20 rotate-165"/>
-      <img src={siteConfig.gifs.sun2} class="absolute w-30 h-auto top-30 left-30 -rotate-35"/>
-      <img src={siteConfig.gifs.jupiter} class="absolute w-52 h-auto top-40 left-36 -rotate-15"/>
-      <img src={siteConfig.gifs.saturn2} class="absolute w-156 h-auto top-36 left-28"/>
+  <div class="relative flex flex-row items-center justify-center flex-row flex-wrap w-full h-80">
+    <div class="md:hidden flex w-full h-20 overflow-hidden">
+      <img 
+        src={siteConfig.photos.title3} 
+        alt=""
+        class="w-full h-full object-cover object-center"
+      />
     </div>
-    <div class="relative">
-      <img src={siteConfig.gifs.asteroid} class="absolute w-25 h-auto top-30 rotate-30"/>
-      <img src={siteConfig.gifs.gundam2} class="absolute w-25 h-auto top-32 left-86 rotate-20"/>
-      <img src={siteConfig.gifs.blaster} class="absolute w-40 h-auto top-42 left-52 -rotate-30"/>
-      <img src={siteConfig.gifs.gundam3} class="absolute w-36 h-auto top-54 left-24 -scale-x-100 -rotate-25"/>
+    <div id="solar" class="relative w-100 h-60 outline">
+      <img src={siteConfig.gifs.earth} class="absolute w-6 h-auto top-16 left-8 rotate-165"/>
+      <img src={siteConfig.gifs.sun2} class="absolute w-18 h-auto top-6 left-16 -rotate-35"/>
+      <img src={siteConfig.gifs.jupiter} class="absolute w-24 h-auto top-16 left-22 -rotate-15"/>
+      <img src={siteConfig.gifs.borg} class="absolute w-20 h-auto left-40"/>
+      <img src={siteConfig.gifs.saturn2} class="absolute w-96 h-auto top-12 left-16"/>
+      <img src={siteConfig.gifs.asteroid} class="absolute w-32 h-auto top-38 left rotate-110"/>
+    </div>
+    <div class="relative w-100 h-60 outline">
+      <img src={siteConfig.gifs.gundam2} class="absolute w-22 h-auto top-4 left-70 rotate-20"/>
+      <img src={siteConfig.gifs.blaster} class="absolute w-40 h-auto top-12 left-36 -rotate-30"/>
+      <img src={siteConfig.gifs.blaster} class="absolute w-40 h-auto top-13 left-32 -rotate-30"/>
+      <img src={siteConfig.gifs.gundam3} class="absolute w-32 h-auto top-22 left-8 -scale-x-100 -rotate-25"/>
     </div>
     <div></div>
-
-    <img 
-      src={siteConfig.photos.title3} 
-      alt=""
-      class="md:hidden absolute left-1/2 top-20 -translate-1/2"
-    />
   </div>
   
   <div id="myModal" class="modal hidden absolute inset-0 flex items-center justify-center" onclick="closeModal('myModal')">

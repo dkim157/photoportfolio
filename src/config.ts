@@ -114,6 +114,10 @@ export const siteConfig = {
       "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWdkdm9kMjZwNjh6eTFnaGFtc3k0ZmQyY3hyNTJuajVrbzd2b2puNCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/lTH5TD6XRDo5k6ICzS/giphy.gif",
     blaster:
       "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHZpbWIzY3FldXBpeGdueGMwNzkwMXF4emRwbzg4NWs5cjBpMjdlMCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/Ymnr4BwyMjqFFkDDri/giphy.gif",
+    enterprise3:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWNseXcyZ2tzOHJlMjd6MGc3bjd1bTc1NmR5bTJ1NG51ZHJ0c3h4YyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/MeCibYxPW3DM4A8f8d/giphy.gif",
+    mars2:
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmR5NXg4bHgydGRyNnd4M3d5enV1ZDZwaTd3cnhtaWdycDVhZ3FjciZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/JRZwMhzk7WolG/giphy.gif",
   },
 
   backgrounds: {
