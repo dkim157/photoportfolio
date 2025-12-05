@@ -1,17 +1,21 @@
 ---
 import { siteConfig } from "../config";
-import Image from "astro/components/Image.astro";
 ---
 
 <section 
-  id="river" 
-  class="h-100 bg-repeat bg-auto"
+  id="middle" 
+  class="w-full h-80 bg-repeat bg-auto"
   style={`background-image: url('${siteConfig.backgrounds.stars2}')`}
 >
-    <!-- <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-16 items-start">
-      <Image src={siteConfig.photos.river} alt={""} inferSize={true}/>
-      <Image src={siteConfig.photos.jump} alt={""} inferSize={true}/>
-      <Image src={siteConfig.photos.float} alt={""} inferSize={true}/>
-      <p class="text-white text-sm">yuba river 2024 / portra 400</p>
-    </div> -->
+  <div class="relative grid grid-cols-3 w-full h-full">
+    <div>placeholder</div>
+    <div id="title-anchor"></div>
+    <div>placeholder</div>
+
+    <img 
+      src={siteConfig.photos.title2} 
+      alt=""
+      class="hidden md:block absolute left-1/2 top-1/3 -translate-1/2"
+    />
+  </div>
 </section>

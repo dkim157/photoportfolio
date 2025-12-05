@@ -9,6 +9,7 @@ export const siteConfig = {
   },
   photos: {
     title: "/title.gif",
+    title2: "/dkim-title.gif",
     sky: "https://i.imgur.com/XrKxIyj.jpeg",
     star: "https://i.imgur.com/RIS4sUr.jpeg",
     trail: "https://i.imgur.com/WdldYHn.jpeg",
