@@ -2,6 +2,9 @@
 import "../styles/global.css";
 import { siteConfig } from "../config";
 import { Image } from 'astro:assets';
+import sky from "../media/sky.jpg";
+import star from "../media/star.jpg";
+import trail from "../media/trail.jpg";
 ---
 <html lang="en">
   <head>
@@ -15,7 +18,9 @@ import { Image } from 'astro:assets';
     </a>
     <div class="flex flex-col items-center justify-center text-4xl">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
-        Photos go here
+        <Image src={sky} alt="" inferSize/>
+        <Image src={star} alt="" inferSize/>
+        <Image src={trail} alt="" inferSize/>
       </div>
     </div>
   </body>
