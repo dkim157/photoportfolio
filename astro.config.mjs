@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   image: {
-    domains: ["i.imgur.com"],
+    domains: ["i.imgur.com", "giphy.com"],
   },
   vite: {
     plugins: [tailwindcss()],

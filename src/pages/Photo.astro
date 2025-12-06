@@ -1,5 +1,7 @@
 ---
 import "../styles/global.css";
+import { siteConfig } from "../config";
+import { Image } from 'astro:assets';
 ---
 <html lang="en">
   <head>
@@ -7,9 +9,42 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width" />
     <title>Photo</title>
   </head>
-  <body class="bg-black text-white min-h-screen">
-    <div class="text-4xl">
-      Photo
+  <body class="bg-black text-white min-h-screen p-4">
+    <a href="/">
+      <p class="inline-block cursor-pointer hover:text-gray-400 text-2xl transition-all duration-50 ease-in-out">Back</p>
+    </a>
+    <div class="flex flex-col items-center justify-center text-4xl">
+      <p class="p-4 pb-8 md:pb-16">Photo</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <Image src={siteConfig.media.sky} alt="" inferSize/>
+        <Image src={siteConfig.media.star} alt="" inferSize/>
+        <Image src={siteConfig.media.trail} alt="" inferSize/>
+        <Image src={siteConfig.media.river} alt="" inferSize/>
+        <Image src={siteConfig.media.jump} alt="" inferSize/>
+        <div class="flex flex-col justify-evenly">
+          <Image src={siteConfig.media.float} alt="" inferSize/>
+          <Image src={siteConfig.media.panda} alt="" inferSize/>
+        </div>
+        <Image src={siteConfig.media.happy} alt="" inferSize/>
+        <Image src={siteConfig.media.sol} alt="" inferSize/>
+        <Image src={siteConfig.media.beach} alt="" inferSize/>
+        <Image src={siteConfig.media.hop} alt="" inferSize/>
+        <Image src={siteConfig.media.seasick} alt="" inferSize/>
+        <Image src={siteConfig.media.aura} alt="" inferSize/>
+        <Image src={siteConfig.media.ama_halmoni} alt="" inferSize/>
+        <Image src={siteConfig.media.uncles} alt="" inferSize/>
+        <Image src={siteConfig.media.christmas} alt="" inferSize/>
+
+        <Image src={siteConfig.media.headlands} alt="" inferSize/>
+        <Image src={siteConfig.media.me_and_coff} alt="" inferSize/>
+        <Image src={siteConfig.media.flowers} alt="" inferSize/>
+        <Image src={siteConfig.media.waterfall} alt="" inferSize/>
+        <Image src={siteConfig.media.brandon} alt="" inferSize/>
+        <Image src={siteConfig.media.griddy} alt="" inferSize/>
+        <Image src={siteConfig.media.toru_star} alt="" inferSize/>
+        <Image src={siteConfig.media.star_party} alt="" inferSize/>
+        <Image src={siteConfig.media.jime} alt="" inferSize/>
+      </div>
     </div>
   </body>
 </html>
