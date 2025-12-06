@@ -1,16 +1,16 @@
 export const siteConfig = {
-  name: "yoyosonly / dkim",
-  title: "casual photography",
-  description: "Portfolio photos by dkim",
+  name: "dkim",
+  title: "personal site",
+  description: "dkim personal website",
   accentColor: "#2e4482",
   social: {
     instagram: "https://instagram.com/yoyosonly",
     email: "danielkimyoyo@gmail.com",
   },
-  photos: {
-    title: "/title.gif",
-    title2: "/dkim-title.gif",
-    title3: "/dkim-title-2.gif",
+  media: {
+    tong: "https://media.giphy.com/media/cYCt3mxdNITTdhjqbm/giphy.gif",
+    sakatuca: "https://media.giphy.com/media/Ll7C7CUrphFz783djN/giphy.gif",
+    zerb: "https://media.giphy.com/media/XWrz6gbbFYX1WNcvf8/giphy.gif",
     sky: "https://i.imgur.com/XrKxIyj.jpeg",
     star: "https://i.imgur.com/RIS4sUr.jpeg",
     trail: "https://i.imgur.com/WdldYHn.jpeg",
@@ -22,6 +22,9 @@ export const siteConfig = {
     aura: "https://i.imgur.com/Kgc6BVI.jpeg",
   },
   gifs: {
+    title: "/title.gif",
+    title2: "/dkim-title.gif",
+    title3: "/dkim-title-2.gif",
     star: "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHZhMzJjaHc5NnU5OWR4bmxsOWN5d243dWdienExdjBsdDJlNDIxOSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/S6Z6vk4Ex19kb5OjO8/giphy.gif",
     sun2: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2dxOG5qNTFtNGpxbjV2Y2xzcWRscnVlcGI5a3hmbW83ODNhbHRydiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/YqL7wobl36TXvw4SxO/giphy.gif",
     meteor:
