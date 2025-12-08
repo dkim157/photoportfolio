@@ -12,21 +12,22 @@ import "../styles/global.css";
     <meta name="description" content={siteConfig.description} />
     <title>{siteConfig.name} - {siteConfig.title}</title>
   </head>
-  <body class="bg-black">
+  <body class="flex items-center justify-center bg-black text-white min-h-screen min-w-screen">
     <!-- <Header /> -->
-    <div class="min-h-screen flex flex-col items-center justify-center overflow-hidden text-white">
+    <div class="flex flex-col items-center justify-center text-white bg-black">
+      <></>
       <div class="flex flex-row flex-wrap items-center justify-center">
-        <a href="/Photo" class="group flex flex-col items-center justify-center text-center mb-4">
-          <img src={siteConfig.media.tong} class="h-auto w-96 cursor-pointer transition-all duration-300 ease-out group-hover:invert"/>
-          <p class="opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100">Photo</p>
+        <a href="/Photo" class="w-56 md:w-96 group flex flex-col items-center justify-center text-center mb-4">
+          <img src={siteConfig.media.tong} class="cursor-pointer transition-all duration-300 ease-out group-hover:invert"/>
+          <p class="text-sm md:text-lg opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100">Photo</p>
         </a>
-        <a href="/Video" class="group flex flex-col items-center justify-center text-center mb-4">
-          <img src={siteConfig.media.sakatuca} class="h-auto w-96 cursor-pointer transition-all duration-300 ease-out group-hover:invert"/>
-          <p class="opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100 mt-2">Video</p>
+        <a href="/Video" class="w-56 md:w-96 group flex flex-col items-center justify-center text-center mb-4">
+          <img src={siteConfig.media.sakatuca} class="cursor-pointer transition-all duration-300 ease-out group-hover:invert"/>
+          <p class="text-sm md:text-lg opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100 mt-2">Video</p>
         </a>
-        <a href="/Design" class="group flex flex-col items-center justify-center text-center mb-4">
-          <img src={siteConfig.media.zerb} class="h-auto w-96 cursor-pointer transition-all duration-300 ease-out group-hover:invert"/>
-          <p class="opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100">Design</p>
+        <a href="/Design" class="w-56 md:w-96 group flex flex-col items-center justify-center text-center mb-4">
+          <img src={siteConfig.media.zerb} class="cursor-pointer transition-all duration-300 ease-out group-hover:invert"/>
+          <p class="text-sm md:text-lg opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100">Design</p>
         </a>
       </div>
     </div>
