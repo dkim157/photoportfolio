@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import YoutubeVideo from "../components/YoutubeVideo.astro";
 ---
 <html lang="en">
   <head>
@@ -7,9 +8,17 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width" />
     <title>Video</title>
   </head>
-  <body class="bg-black text-white min-h-screen">
-    <div class="text-4xl">
-      Video
+  <body class="bg-black text-white min-h-screen p-4">
+    <a href="/">
+      <p class="inline-block cursor-pointer hover:text-gray-400 text-2xl transition-all duration-50 ease-in-out pb-4">Back</p>
+    </a>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+      <YoutubeVideo src="https://youtu.be/QfNuj3I6ZHE?si=JyzJ1XQcHTFj06bc"/>
+      <YoutubeVideo src="https://youtu.be/R59Qr3bb78s?si=gvl4tvMooZ3Swb3Y"/>
+      <YoutubeVideo src="https://youtu.be/MAKL3C0n6h0?si=nJLJVdfr3OSdtsp5"/>
+      <YoutubeVideo src="https://youtu.be/AQP80ghlFKI?si=8tuSXUxTsgM97IeI"/>
+      <YoutubeVideo src="https://youtu.be/3cMF-sOkyaA?si=jASy-x7KBN7VsKqb"/>
+      <YoutubeVideo src="https://youtu.be/oifyoX3667A?si=RjnOn_wy_srAe0dF"/>
     </div>
   </body>
 </html>
