@@ -1,5 +1,8 @@
 ---
 import "../styles/global.css";
+import { Image } from 'astro:assets';
+import beach from "../media/beach.jpg";
+import snow from "../media/snow.jpg";
 ---
 <html lang="en">
   <head>
@@ -7,9 +10,23 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width" />
     <title>Design</title>
   </head>
-  <body class="bg-black text-white min-h-screen">
-    <div class="text-4xl">
-      Design
+  <body class="bg-black text-white min-h-screen p-4">
+    <a href="/">
+      <p class="inline-block cursor-pointer hover:text-gray-400 text-2xl transition-all duration-50 ease-in-out pb-4">Back</p>
+    </a>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+      <div class="relative">
+        <Image src={snow} alt="" inferSize class="blur-xl" />
+        <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+          <p class="text-white text-xl md:text-2xl font-semibold">Coming Soon</p>
+        </div>
+      </div>  
+      <div class="relative">
+        <Image src={beach} alt="" inferSize class="blur-xl" />
+        <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+          <p class="text-white text-xl md:text-2xl font-semibold">Coming Soon</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
