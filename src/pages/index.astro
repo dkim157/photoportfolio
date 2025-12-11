@@ -12,20 +12,21 @@ import "../styles/global.css";
     <meta name="description" content={siteConfig.description} />
     <title>{siteConfig.name} - {siteConfig.title}</title>
   </head>
-  <body class="flex items-center justify-center bg-black text-white text-center  min-h-screen min-w-screen">
+  <body class="flex items-center justify-center bg-black min-h-screen min-w-screen bg-[url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdrMG93dWU5MTFqdWRvamx0dnp4cTJ1Z2ZqeWN0OGRwaG8yeHR2OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xVn3ZmKrKIOLS/giphy.gif')]
+         bg-repeat">
     <!-- <Header /> -->
-    <div class="flex flex-row flex-wrap items-center justify-center text-white bg-black">
-      <a href="/Photo" class="w-56 md:w-96 group flex flex-col items-center justify-center mb-4">
+    <div class="flex flex-row flex-wrap items-center justify-center text-white">
+      <a href="/Photo" class="w-72 md:w-96 group flex flex-col items-center justify-center mb-4">
         <img src={siteConfig.media.tong} class="cursor-pointer transition-all duration-300 ease-out group-hover:invert"/>
-        <p class="text-sm md:text-lg opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100">Gallery</p>
+        <p class="rounded text-md md:text-lg opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100">Photo</p>
       </a>
-      <a href="/Video" class="w-56 md:w-96 group flex flex-col items-center justify-center mb-4">
+      <a href="/Video" class="w-72 md:w-96 group flex flex-col items-center justify-center mb-4">
         <img src={siteConfig.media.sakatuca} class="cursor-pointer transition-all duration-300 ease-out group-hover:invert"/>
-        <p class="text-sm md:text-lg opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100 mt-2">Video</p>
+        <p class="text-md md:text-lg opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100 mt-2">Video</p>
       </a>
-      <a href="/Design" class="w-56 md:w-96 group flex flex-col items-center justify-center mb-4">
+      <a href="/Design" class="w-72 md:w-96 group flex flex-col items-center justify-center mb-4">
         <img src={siteConfig.media.zerb} class="cursor-pointer transition-all duration-300 ease-out group-hover:invert"/>
-        <p class="text-sm md:text-lg opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100">Design</p>
+        <p class="text-md md:text-lg opacity-100 md:opacity-0 transition-all duration-300 ease-out md:group-hover:opacity-100">Design</p>
       </a>
     </div>
   </body>
